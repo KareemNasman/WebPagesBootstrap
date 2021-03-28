@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #2f3640;
+   
+}
+.page{
+    width: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Box{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #fff;
+}
+h1{
+    margin: 10px;
+    padding: 5px;
+    font-family: ahmed;
+}
+label{
+    margin: 5px ;
+    padding: 10px;
+    font-family: KARAM;
+    font-size: 20px;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* margin: 25px; */
+    padding: 10px;
+    border: 1px solid #636e72;
+    outline: 0;
+    
+}
+.active{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.activess{
+    width: 20px;
+}
+.actives{
+    align-items: center;
+    margin: auto;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+button{
+    width: 120px;
+    margin: 20px auto;
+    padding: 8px;
+    color: #fff;
+    background-color: #0984e3;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    letter-spacing: 1px;
+}
+button:hover{
+    background-color: #000;
+    font-weight: bold;
+}
+@font-face{
+    src: url(../font/DarkerGrotesque-Medium.ttf);
+    font-family: KARAM;
+}
+@font-face{
+    src: url(../font/static/Rubik-Bold.ttf);
+    font-family: ahmed;
+}
